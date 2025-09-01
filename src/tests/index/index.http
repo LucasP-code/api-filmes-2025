@@ -1,0 +1,9 @@
+@url = https://8080-lucaspcode-apifilmes202-crs6lrzajiw.ws-us121.gitpod.io
+GET {{url}}
+
+###
+
+POST {{url}}
+Content-Type: text/plain
+
+Melao

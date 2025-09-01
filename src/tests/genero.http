@@ -1,0 +1,25 @@
+@url = https://8080-lucaspcode-apifilmes202-crs6lrzajiw.ws-us121.gitpod.io/genero
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "nome": "Acao"
+}
+
+###
+GET {{url}}
+
+###
+PUT {{url}}/3
+Content-Type: application/json
+
+{
+    "nome": "Comedia"
+}
+
+###
+DELETE {{url}}/4
+
+###
+GET {{url}}/2
