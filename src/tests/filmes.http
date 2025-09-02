@@ -1,0 +1,27 @@
+@url = https://8080-lucaspcode-apifilmes202-crs6lrzajiw.ws-us121.gitpod.io/filmes
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "titulo": "Star wars",
+    "idGenero": 3
+}
+
+###
+GET {{url}}
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "titulo": "Star wars",
+    "idGenero": 1
+}
+
+###
+DELETE {{url}}/4
+
+###
+GET {{url}}/2
