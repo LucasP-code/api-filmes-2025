@@ -1,11 +1,11 @@
-@url = https://8080-lucaspcode-apifilmes202-crs6lrzajiw.ws-us121.gitpod.io/filmes
+@url = https://stunning-space-dollop-gg49qv5x4752vrj4-8080.app.github.dev/filmes
 
 POST {{url}}
 Content-Type: application/json
 
 {
     "titulo": "Star wars",
-    "idGenero": 3
+    "idGenero": 1
 }
 
 ###
@@ -16,12 +16,12 @@ PUT {{url}}/1
 Content-Type: application/json
 
 {
-    "titulo": "Star wars",
+    "titulo": "Star wars 3",
     "idGenero": 1
 }
 
 ###
-DELETE {{url}}/4
+DELETE {{url}}/1
 
 ###
-GET {{url}}/2
+GET {{url}}/2+

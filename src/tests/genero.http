@@ -1,4 +1,4 @@
-@url = https://8080-lucaspcode-apifilmes202-crs6lrzajiw.ws-us121.gitpod.io/genero
+@url = https://stunning-space-dollop-gg49qv5x4752vrj4-8080.app.github.dev/genero
 
 POST {{url}}
 Content-Type: application/json
