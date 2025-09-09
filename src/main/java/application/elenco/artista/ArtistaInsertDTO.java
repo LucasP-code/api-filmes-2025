@@ -1,4 +1,4 @@
-package application.elenco;
+package application.elenco.artista;
 
 public record ArtistaInsertDTO(String nome) {
     public ArtistaInsertDTO(Artista dados) {

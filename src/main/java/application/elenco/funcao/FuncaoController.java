@@ -1,4 +1,4 @@
-package application.elenco.artista;
+package application.elenco.funcao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -11,34 +11,34 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/artistas")
-public class ArtistaController {
+@RequestMapping("/funcoes")
+public class FuncaoController {
     @Autowired
-    ArtistaService artistaService;
+    FuncaoService funcaoService;
 
     @GetMapping
-    public Iterable<ArtistaDTO> getAll() {
-        return this.artistaService.getAll();
+    public Iterable<FuncaoDTO> getAll() {
+        return this.funcaoService.getAll();
     }
 
     @PostMapping
-    public ArtistaDTO insert(@RequestBody ArtistaInsertDTO novosDados) {
-        return this.artistaService.insert(novosDados);
+    public FuncaoDTO insert(@RequestBody FuncaoInsertDTO novosDados) {
+        return this.funcaoService.insert(novosDados);
     }
 
     @PutMapping("/{id}")
-    public ArtistaDTO update(@PathVariable Long id, @RequestBody ArtistaInsertDTO dados) {
-        return this.artistaService.update(id, dados);
+    public FuncaoDTO update(@PathVariable Long id, @RequestBody FuncaoInsertDTO dados) {
+        return this.funcaoService.update(id, dados);
     }
 
     @GetMapping("/{id}")
-    public ArtistaDTO getOne(@PathVariable Long id) {
-        return this.artistaService.getOne(id);
+    public FuncaoDTO getOne(@PathVariable Long id) {
+        return this.funcaoService.getOne(id);
     }
 
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {
-        this.artistaService.delete(id);
+        this.funcaoService.delete(id);
     }
 
 }

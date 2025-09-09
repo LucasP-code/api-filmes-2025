@@ -1,0 +1,25 @@
+@url = https://stunning-space-dollop-gg49qv5x4752vrj4-8080.app.github.dev/funcoes
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "descricao": "Ator/atriz"
+}
+
+###
+GET {{url}}
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "descricao": "Produtor"
+}
+
+###
+DELETE {{url}}/2
+
+###
+GET {{url}}/2

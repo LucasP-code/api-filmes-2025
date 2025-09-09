@@ -1,4 +1,4 @@
-package application.elenco;
+package application.elenco.funcao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

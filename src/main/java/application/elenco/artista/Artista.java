@@ -1,4 +1,4 @@
-package application.elenco;
+package application.elenco.artista;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

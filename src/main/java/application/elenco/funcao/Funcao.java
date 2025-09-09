@@ -1,4 +1,4 @@
-package application.elenco;
+package application.elenco.funcao;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

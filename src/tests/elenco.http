@@ -1,0 +1,26 @@
+@url = https://stunning-space-dollop-gg49qv5x4752vrj4-8080.app.github.dev/elencos
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "idFilme": 2,
+    "idArtista": 2,
+    "idFuncao": 1
+}
+
+###
+GET {{url}} 
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "idFilme": 2,
+    "idArtista": 2,
+    "idFuncao": 3
+}
+
+###
+DELETE {{url}}/2

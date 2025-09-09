@@ -1,4 +1,4 @@
-package application.elenco;
+package application.elenco.artista;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

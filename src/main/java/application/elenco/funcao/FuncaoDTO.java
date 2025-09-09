@@ -1,4 +1,4 @@
-package application.elenco;
+package application.elenco.funcao;
 
 public record FuncaoDTO(long id, String descricao) {
     public FuncaoDTO(Funcao dados) {
