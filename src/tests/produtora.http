@@ -1,0 +1,25 @@
+@url = https://stunning-space-dollop-gg49qv5x4752vrj4-8080.app.github.dev/produtoras
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "nome": "Sony Pictures"
+}
+
+###
+GET {{url}}
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "nome": "Warner Bros."
+}
+
+###
+DELETE {{url}}/2
+
+###
+GET {{url}}/1
