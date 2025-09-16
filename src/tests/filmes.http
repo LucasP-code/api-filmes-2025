@@ -5,23 +5,25 @@ Content-Type: application/json
 
 {
     "titulo": "Star wars",
-    "idGenero": 1
+    "idGenero": 1,
+    "idsProdutoras": [1,2]
 }
 
 ###
 GET {{url}}
 
 ###
-PUT {{url}}/1
+PUT {{url}}/3
 Content-Type: application/json
 
 {
-    "titulo": "Star wars 3",
-    "idGenero": 1
+    "titulo": "Star wars, A vingança dos Sith",
+    "idGenero": 2,
+    "idsProdutoras": [2]
 }
 
 ###
-DELETE {{url}}/1
+DELETE {{url}}/2
 
 ###
 GET {{url}}/2+

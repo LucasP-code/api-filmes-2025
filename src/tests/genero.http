@@ -11,7 +11,7 @@ Content-Type: application/json
 GET {{url}}
 
 ###
-PUT {{url}}/3
+PUT {{url}}/2
 Content-Type: application/json
 
 {
