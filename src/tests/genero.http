@@ -1,6 +1,9 @@
 @url = https://stunning-space-dollop-gg49qv5x4752vrj4-8080.app.github.dev/genero
 
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImhhc2giOiIkMmEkMTIkSXNCU3E2aXBKNmlJOTZId1VsdHYydXoudTNDdWFvcm9vWTV6MHlvdnZnY3ZJbWFXL3pEdSIsImlhdCI6MTcwMDAwMDAwMH0.dummy-signature-abcdef123456
+
 POST {{url}}
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
@@ -9,6 +12,7 @@ Content-Type: application/json
 
 ###
 GET {{url}}
+Authorization: Bearer {{token}}
 
 ###
 PUT {{url}}/2

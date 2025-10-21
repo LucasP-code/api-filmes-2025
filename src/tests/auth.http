@@ -1,0 +1,9 @@
+@url = http://localhost:8080
+
+POST {{url}}/auth
+Content-Type: application/json
+
+{
+    "nome_de_usuario": "admin",
+    "senha": "admin"
+}

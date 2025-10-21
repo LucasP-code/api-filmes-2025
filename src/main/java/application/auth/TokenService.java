@@ -19,7 +19,7 @@ public class TokenService {
         return LocalDateTime.now().plusHours(2).toInstant(ZoneOffset.of("-03:00"));
     }
 
-    public String genereToken(Usuario usuario) {
+    public String generateToken(Usuario usuario) {
         try {
             Algorithm algorithm = Algorithm.HMAC256(tokenKey);
 
